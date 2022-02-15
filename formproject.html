@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FormProject</title>
+    <link rel="stylesheet" href="formproject.css"
+</head>
+<body>
+<form>
+    <div class="container">
+     <centre>   <h1>Student Registration Form</h1></centre>
+    <hr>
+    
+    <label>First name</label>
+    <input type="text" name="Firstname" placeholder="Firstname"  required>
+    <label>First name</label>
+    <input type="text" name="Middlename" placeholder="Middlename"  required>
+    <label>First name</label>
+    <input type="text" name="Lastname" placeholder="Lastname"  required>
+    <label>Course:</label>
+    <select>
+        <option value="Course">Course</option>
+        <option value="BCA">BCA</option>
+        <option value="BBA">BBA</option>
+        <option value="B.tech">B.tech</option>
+        <option value="MBA">MBA</option>
+        <option value="MCA">MCA</option>
+        <option value="M.tech">M.tech</option>
+    </select>
+    <label>Gender:</label>
+    <input type="radio" value="male" names="gender" checked>male
+    <input type="radio" value="female" names="gender">female
+    <input type="radio" value="other" names="gender">other
+    <br>
+    <label>Phone:</label>
+    <input type="text" name="Country_code" value="+91">
+    <input type="text" name="phone" placeholder="phone no" required>
+    <label>Current Address</label>
+    <textarea cols="80" rows="5" placeholder="Current Address" value="address" required></textarea>
+    <label for="email">Email</label>
+    <input type="email" placeholder="email id" name="email" required>
+    <label for="psw">Password</label>
+    <input type="password" placeholder=" Enter Password" name="pws" required>
+    <label for="psw-repeat">Password</label>
+    <input type="password" placeholder=" Retype Password" name="psw-repeat" required>
+    <centre><button type="submit" class="registration">Register</button></centre>
+    </div>
+</form>
+    
+</body>
+</html>
